@@ -1,6 +1,8 @@
 # resume
 
 > A Vue.js project
+>
+> 个人简历：http://luojc.cn
 
 ## Build Setup
 
