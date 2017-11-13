@@ -156,19 +156,19 @@ const en = {
   projects: [
     {
       title: 'Bookstore',
-      img: 'http://luojc.cn/static/img/book.83d9a9a.png',
+      img: 'http://luojc.cn/images/book.png',
       content: 'The front end is built with Vue+elementUi+axios, the back end adopts node.js, the front and back ends are separated, and the interaction process between the front and back sides is familiar.',
       demo: 'http://bookshop.luojc.cn'
     },
     {
       title: 'Sudoku',
-      img: 'http://luojc.cn/static/img/game.11c69ac.png',
+      img: 'http://luojc.cn/images/game.png',
       content: 'A square game, consolidate basic learning. Some understanding of JavaScript algorithm, consolidate front-end knowledge.',
       demo: 'http://luojc.cn/game'
     },
     {
       title: 'Dashboard',
-      img: 'http://luojc.cn/static/img/dashboard.png',
+      img: 'http://luojc.cn/images/dashboard.png',
       content: 'Dashboaard for tree hole applet, team work, responsible for the preparation of front-end React components, familiar with the use of Git, the use of Readux.'
     }
   ],
