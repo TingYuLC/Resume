@@ -1,0 +1,61 @@
+.entry {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+    .page {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        padding-top: 90px;
+        opacity: 0;
+        transition: transform 800ms ease;
+    }
+
+    .currentPage {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .prePage {
+        opacity: 1;
+        transform: translateY(-100%);
+    }
+
+    .nextPage {
+        opacity: 1;
+        transform: translateY(100%);
+    }
+}
+
+.copyright {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C3E50;
+    color: @gray-white-color;
+    
+    p {
+        word-spacing: 2px;
+        padding: 0 10px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .entry {
+        .page {
+            padding-top: 10px;
+        }
+    }
+    .copyright {
+        display: none;
+    }
+}

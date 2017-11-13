@@ -1,0 +1,68 @@
+@import '../../assets/less/_variables';
+.component-language {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    right: 30px;
+    top: 90px;
+    width: 70px;
+    height: 30px;
+    z-index: 20;
+    user-select: none;
+    border-radius: 30px;
+    background-color: @gray-light-color;
+
+    span {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        color: @gray-dark-color;
+        cursor: pointer;
+        margin: 0 4px;
+        transition: all 300ms ease;
+        user-select: none;
+    }
+
+    &:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: '';
+        width: 34px;
+        height: 30px;
+        border-radius: 30px;
+        background-color: @gray-black-color;
+        z-index: -1;
+        transition: all 0.3s ease;
+    }
+}
+
+.cn {
+    .language-cn {
+        color: @gray-white-color;
+    }
+
+    &:after {
+        transform: translateX(0);
+    }
+}
+
+.en {
+    .language-en {
+        color: @gray-white-color;
+    }
+
+    &:after {
+        transform: translateX(36px);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .component-language {
+        top: 10px;
+        right: 10px;
+    } 
+}
