@@ -72,19 +72,19 @@ const cn = {
   projects: [
     {
       title: '购物书店',
-      img: 'http://luojc.cn/static/img/book.83d9a9a.png',
+      img: 'http://luojc.cn/images/book.png',
       content: '前端采用Vue+elementUi+axios搭建,后端采用node.js,前后端分离,熟悉前后端交互流程。',
       demo: 'http://bookshop.luojc.cn'
     },
     {
       title: '九宫格游戏',
-      img: 'http://luojc.cn/static/img/game.11c69ac.png',
+      img: 'http://luojc.cn/images/game.png',
       content: '一个九宫格小游戏，巩固基础学习。对JavaScript的一些算法有一定的了解，巩固前端基础知识。',
       demo: 'http://luojc.cn/game'
     },
     {
       title: '树洞控制台',
-      img: 'http://luojc.cn/static/img/dashboard.png',
+      img: 'http://luojc.cn/images/dashboard.png',
       content: '为小程序制作的控制台，团队合作，负责React组件的编写，熟悉Git的使用，使用Readux。'
     }
   ],
