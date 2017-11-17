@@ -39,6 +39,12 @@ const cn = {
   blog: '博客文章',
   articles: [
     {
+      date: '2017-11-17',
+      title: 'Flex布局',
+      text: '目前常见的布局方式有固定布局，流动布局，而为适应响应式布局，css3增加了弹性布局',
+      url: 'http://blog.luojc.cn/2017/11/17/Flex/'
+    },
+    {
       date: '2017-09-12',
       title: 'ES6常见特性',
       text: 'ES5只有全局作用域，ES6新增了块级作用域，所谓块级作用域，即块内声明的变量只在块内有效。',
@@ -122,6 +128,12 @@ const en = {
   ],
   blog: 'Blog Articles',
   articles: [
+    {
+      date: '2017-11-17',
+      title: 'Flex',
+      text: 'At present, the common layout methods have fixed layout and flow layout, while CSS3 has increased the elastic layout to adapt to the responsive layout.',
+      url: 'http://blog.luojc.cn/2017/11/17/Flex/'
+    },
     {
       date: '2017-09-12',
       title: 'ES6',
