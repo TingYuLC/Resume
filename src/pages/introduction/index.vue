@@ -1,6 +1,6 @@
 <template>
     <div class="page introduction">
-        <img src="http://luojc.cn/images/LittleBitch.jpg" />
+        <img src="//luojc.cn/images/LittleBitch.jpg" />
         <span>{{$store.state.data.name}}</span>
         <p>{{$store.state.data.about}}</p>
         <arrow />

@@ -8,8 +8,8 @@
             </div>
         </div>
         <div class="git-blog">
-            <a href="http://blog.luojc.cn/" target="_blank">
-              <img @touchstart="linkTo('http://blog.luojc.cn/')" src="../../assets/img/svg/blog.svg"/>
+            <a href="//blog.luojc.cn/" target="_blank">
+              <img @touchstart="linkTo('//blog.luojc.cn/')" src="../../assets/img/svg/blog.svg"/>
             </a>
             <a href="https://github.com/TingYuLC" target="_blank">
               <img @touchstart="linkTo('https://github.com/TingYuLC')" src="../../assets/img/svg/github.svg"/>
