@@ -22,7 +22,7 @@ const cn = {
     '博客文章',
     '联系我'
   ],
-  about: '我叫罗金城，目前大四，坐标深圳，是一名前端工程师，除了Javascript，也接触过C,C++,Java。',
+  about: '我叫罗金城，08年毕业，坐标深圳，是一名前端工程师，除了Javascript，也接触过C,C++,Java。',
   skills: '技能',
   skillImgs: [
     html,
@@ -39,10 +39,10 @@ const cn = {
   blog: '博客文章',
   articles: [
     {
-      date: '2017-11-17',
+      date: '2017-10-12',
       title: 'Flex布局',
       text: '目前常见的布局方式有固定布局，流动布局，而为适应响应式布局，css3增加了弹性布局',
-      url: '//blog.luojc.cn/2017/11/17/Flex/'
+      url: '//blog.luojc.cn/2017/10/12/Flex/'
     },
     {
       date: '2017-09-12',
@@ -63,10 +63,10 @@ const cn = {
       url: '//blog.luojc.cn/2017/07/27/this/'
     },
     {
-      date: '2017-07-04',
+      date: '2017-06-24',
       title: '垂直居中',
       text: '在平常写网页时，总会遇到很多水平居中，垂直居中的问题，往往对很多居中属性半生不熟，本文章整理了一些水平，垂直居中的方法，希望有用。',
-      url: '//blog.luojc.cn/2017/07/04/center/'
+      url: '//blog.luojc.cn/2017/06/24/center/'
     },
     {
       date: '2017-05-04',
@@ -77,21 +77,20 @@ const cn = {
   ],
   projects: [
     {
-      title: '购物书店',
-      img: '//luojc.cn/images/book.png',
-      content: '前端采用Vue+elementUi+axios搭建,后端采用node.js,前后端分离,熟悉前后端交互流程。',
-      demo: '//bookshop.luojc.cn'
+      title: '毕业设计',
+      img: '//luojc.cn/images/design.png',
+      content: '一个类似CMS的个人博客管理系统，采用Vue+axios+Element-ui搭建，后端采用koa2。',
+      demo: '//design.luojc.cn'
     },
     {
-      title: '九宫格游戏',
-      img: '//luojc.cn/images/game.png',
-      content: '一个九宫格小游戏，巩固基础学习。对JavaScript的一些算法有一定的了解，巩固前端基础知识。',
-      demo: '//luojc.cn/game'
+      title: 'React-Native乱炖',
+      img: '//luojc.cn/images/rndemo.png',
+      content: '一款集合了豆瓣电影，网易云音乐，友盟第三方分享的React-Native App'
     },
     {
       title: '树洞控制台',
-      img: '//luojc.cn/images/dashboard.png',
-      content: '为小程序制作的控制台，团队合作，负责React组件的编写，熟悉Git的使用，使用Readux。'
+      img: '//luojc.cn/images/szdashboard.png',
+      content: '为小程序制作的控制台，团队合作，负责React组件的编写，熟悉Git的使用，使用Redux。'
     }
   ],
   projectName: '项目经验'
@@ -129,10 +128,10 @@ const en = {
   blog: 'Blog Articles',
   articles: [
     {
-      date: '2017-11-17',
+      date: '2017-10-12',
       title: 'Flex',
       text: 'At present, the common layout methods have fixed layout and flow layout, while CSS3 has increased the elastic layout to adapt to the responsive layout.',
-      url: '//blog.luojc.cn/2017/11/17/Flex/'
+      url: '//blog.luojc.cn/2017/10/12/Flex/'
     },
     {
       date: '2017-09-12',
@@ -153,10 +152,10 @@ const en = {
       url: '//blog.luojc.cn/2017/07/27/this/'
     },
     {
-      date: '2017-07-04',
+      date: '2017-06-24',
       title: 'Vertical Centering',
       text: 'Write in a web page, will meet a lot of horizontal center, vertical center problem, often for many middle or not to attribute halfcooked, summary, this article compiled some level method vertically, the hope that useful.',
-      url: '//blog.luojc.cn/2017/07/04/center/'
+      url: '//blog.luojc.cn/2017/06/24/center/'
     },
     {
       date: '2017-05-04',
@@ -167,21 +166,20 @@ const en = {
   ],
   projects: [
     {
-      title: 'Bookstore',
-      img: '//luojc.cn/images/book.png',
-      content: 'The front end is built with Vue+elementUi+axios, the back end adopts node.js, the front and back ends are separated, and the interaction process between the front and back sides is familiar.',
-      demo: '//bookshop.luojc.cn'
+      title: 'Graduation project',
+      img: '//luojc.cn/images/design.png',
+      content: 'A personal blog management system similar to CMS is built with Vue+axios+Element-ui, and koa2 is used in the back end.',
+      demo: '//design.luojc.cn'
     },
     {
-      title: 'Sudoku',
-      img: '//luojc.cn/images/game.png',
-      content: 'A square game, consolidate basic learning. Some understanding of JavaScript algorithm, consolidate front-end knowledge.',
-      demo: '//luojc.cn/game'
+      title: 'React-Native Stew',
+      img: '//luojc.cn/images/rndemo.png',
+      content: 'A collection of Douban Movies, NetEase Cloud Music, React-Native App shared by third parties in the Alliance.'
     },
     {
       title: 'Dashboard',
-      img: '//luojc.cn/images/dashboard.png',
-      content: 'Dashboaard for tree hole applet, team work, responsible for the preparation of front-end React components, familiar with the use of Git, the use of Readux.'
+      img: '//luojc.cn/images/szdashboard.png',
+      content: 'Dashboaard for tree hole applet, team work, responsible for the preparation of front-end React components, familiar with the use of Git, the use of Redux.'
     }
   ],
   projectName: 'Project Experience'
